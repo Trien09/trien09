@@ -1,0 +1,65 @@
+/* Thiết lập kiểu dáng chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Căn chỉnh form và các phần tử */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Căn chỉnh các trường nhập liệu */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Định dạng các trường nhập liệu */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Định dạng nút đăng ký */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hiệu ứng khi hover nút */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Thông báo lỗi hoặc thành công */
+#message {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
