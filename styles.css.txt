@@ -1,7 +1,7 @@
 /* Thiết lập kiểu dáng chung cho trang */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: red;
     margin: 0;
     padding: 0;
 }
@@ -44,8 +44,8 @@ input[type="text"], input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color:#0000FF;
-    color: white;
+    background-color:red;
+    color: red;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -54,7 +54,7 @@ button {
 
 /* Hiệu ứng khi hover nút */
 button:hover {
-    background-color: #45a049;
+    background-color: blue;
 }
 
 /* Thông báo lỗi hoặc thành công */
